@@ -1,0 +1,32 @@
+html {
+  font-family: 'Bellota', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  width: 300px;
+  height: 75px;
+  font-size: 2rem;
+  margin: auto;
+  text-align: center;
+  background-color: #8ACFC5;
+  border: 1px #73ACA4;
+  border-radius: 50px;
+  color: #8ACFC5;
+  text-shadow: 2px 2px 2px #2C423F;
+  line-height: 4.3rem;
+  box-shadow: 2px 2px 2px #2C423F;
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.2));
+}
+
+div:hover p {
+  color: #C3A994;
+  background-color: #C3A994;
+  border: 1px #754F30;
+  box-shadow: 2px 2px 2px #754F30;
+  text-shadow: 2px 2px 2px #754F30;
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.2));
+}
