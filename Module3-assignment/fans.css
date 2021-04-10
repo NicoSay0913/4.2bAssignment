@@ -1,0 +1,42 @@
+/* header and body setup */
+form {
+  width: 300px;
+}
+
+input {
+  width: 100px;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+body {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #243064;
+  position: relative;
+  box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.5),
+    inset 0 -3px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Header styling */
+header {
+  height: 150px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 60px;
+  margin: 0 0 0 20.5px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* Red panda image */
+.closing-image img {
+  display: block;
+  max-width: 100%;
+}

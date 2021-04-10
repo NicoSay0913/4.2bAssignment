@@ -1,0 +1,73 @@
+/* header and body setup */
+      html {
+        font-family: 'Open Sans', sans-serif;
+        background: url(images/pattern.png);
+      }
+      body {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #243064;
+        position: relative;
+        box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
+                    inset 0 -3px 2px rgba(0,0,0,0.5);
+      }
+      /* Header styling */
+      header {
+        height: 150px;
+        font-family: 'Press Start 2P', cursive;
+      }
+      header img {
+        width: 100px;
+        position: absolute;
+        right: 23.5px;
+        top: 32.5px;
+      }
+      h1 {
+        font-size: 28px;
+        line-height: 140px;
+        margin: 0 0 0 20.5px;
+      }
+      /* main section and video styling */
+      main {
+        background: #8c83c6;
+      }
+      article {
+        padding: 20px;
+      }
+      h2 {
+        margin-top: 0;
+      }
+      p {
+        line-height: 2;
+      }
+      iframe {
+        float: left;
+        margin: 0 20px 20px 0;
+        max-width: 100%;
+      }
+      /* further info links */
+      .further-info {
+        clear: left;
+        padding: 40px 0;
+        background: #243064;
+        box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
+                    inset 0 -3px 2px rgba(0,0,0,0.5);
+      }
+      .further-info a {
+        width: 25%;
+        padding: 0 1%;
+        display: block;
+        float: left;
+      }
+      .further-info img {
+        max-width: 100%;
+      }
+      .clearfix {
+        clear: both;
+      }
+      /* Red panda image */
+      .closing-image img {
+        display: block;
+        max-width: 100%;
+      }
