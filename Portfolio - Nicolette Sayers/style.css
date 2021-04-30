@@ -1,0 +1,144 @@
+h1 {
+  font-family: 'Princess Sofia', cursive;
+  font-size: 80px;
+  text-align: center;
+  color: rgb(97, 87, 102);
+  text-shadow: 1px 1px black;
+}
+
+h2 {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1px 4px 1px rgb(97, 87, 102);
+}
+
+h3, h4 {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 1px 4px 1px rgb(97, 87, 102);
+}
+
+h5 {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 1px;
+  text-shadow: 1px 4px 1px rgb(97, 87, 102);
+}
+
+body {
+  width: 640px;
+  margin: 0 auto;
+  padding: 50px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+}
+
+p {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 480px;
+  padding-bottom: 10px;
+  align-content: center;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: crosshair;
+  padding-bottom: 100px;
+  align-content: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+button {
+  top: -50px;
+  left: -50px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: rgba(97, 87, 102, .5);
+  text-shadow: 3px 3px 3px gray;
+  border: 4px rounded rgb(97, 87, 102);
+  position: absolute;
+  cursor: crosshair;
+}
+
+.sidenav {
+  height: 100%;
+  width: 165px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(97, 87, 102);
+  overflow-x: hidden;
+  padding-top: 50px;
+  opacity: 60%;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 30px;
+  color: gray;
+  display: block;
+  text-shadow: 1px 1px black;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+footer {
+  align-items: center;
+  text-align: justify;
+  margin-top: 200px;
+  padding: 10px;
+  border: 4px dotted rgb(97, 87, 102);
+}
